@@ -36,8 +36,18 @@
 #include <stdio.h>
 
 int main() {
+    int score = 0 ;
+    printf("enter score\n") ;
+    scanf("%d" , &score) ;
 
-    //--| YOUR CODE HERE
-
+    if (score >= 80){
+        printf("A !") ;
+    }else if (score >= 75){
+        printf("B+ !") ;
+    }else if (score >= 70){
+        printf("B !") ;
+    }else{
+        printf("F !") ;
+    }
     return 0 ;
 }//end main function
